@@ -1,0 +1,5 @@
+1. method1: check wheather each elements of orbit1 is in the orbits2.  
+    Time complexity = O(n^2)
+    
+2. method2: build hashtable for orbit1, and then check if there is any element from orbit2 is in hashtable.   
+    Time complexity = O(m+n)
