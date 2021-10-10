@@ -106,7 +106,7 @@ bool detectIntersect(Point p1, Point p2, Point p3, Point p4)
 ///------------alg 1------------
 
 ///------------alg 2------------
-//叉积
+//叉积 Cross product
 double mult(Point a, Point b, Point c)
 {
     return (a.x-c.x)*(b.y-c.y)-(b.x-c.x)*(a.y-c.y);
@@ -144,7 +144,7 @@ bool intersect(Point aa, Point bb, Point cc, Point dd)
 ///------------alg 2------------
 
 ///------------alg 3------------
-double determinant(double v1, double v2, double v3, double v4)  // 行列式
+double determinant(double v1, double v2, double v3, double v4)  // 行列式determinant
 {
     return (v1*v3-v2*v4);
 }
