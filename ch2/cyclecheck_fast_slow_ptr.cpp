@@ -1,3 +1,7 @@
+
+// O(n) time complexity
+// O(1) space __only use slow/fast/ptr pointer
+
 /*两次遍历确定环的入口
  * 快慢指针：
 
